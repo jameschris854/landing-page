@@ -1,0 +1,377 @@
+/**
+ * index.scss
+ * - Add any styles want here!
+ */
+
+ body {
+    background: #ffffff;
+    padding: 0%;
+    margin: 0%;
+  }
+  .logo{
+    margin-right:auto;
+    font-size: 25px;
+  }
+  .logo>span{
+    font-weight:bold;
+  }
+  nav{
+    display:flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:auto;
+    padding-top:50px;
+    padding-bottom: 15px;
+    justify-content:center;
+    background-color: white;
+    z-index: 2;
+  }
+  .nav{
+    color:grey;
+    margin-right:10px;
+    font-size:15px;
+    align-self:center
+  }
+  .btn{
+   margin-left: auto;
+   
+  }
+  .btn>button{
+      padding:10px;
+      padding-right: 20px;
+      padding-left: 20px;
+    color:white;
+    background-color:rgb(124, 207, 124);
+    border:none;
+    border-radius: 17px;
+    cursor: pointer;
+    outline: none;
+  }
+  .head-container{
+      margin: 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+    /* background:url(https://drive.google.com/uc?export=view&id=1ExxmLFCTXullN1v4JaCXxXB39ctAy4BC);
+      background-size: 100% 100%;
+    background-position: center;
+      
+      background-repeat:no-repeat; */
+    color:white;
+  }
+  video{
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    top: -140px;
+    min-width: 100%; 
+    min-height: 100%;
+    width: 100vh; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+       
+  }
+  .head-container>h1{
+      font-size: 50px;
+      font-weight: 200;
+      padding: 0%;
+      margin: 0%;
+      margin-top: 40px;
+  }
+  .fa-play-circle{
+    font-size:70px;
+    margin-bottom: 80px;
+  }
+ 
+  .signup-inputs{
+      width: 60%;
+      margin-bottom: 2%;
+      display: flex;
+  }
+  .signup-inputs>input{
+    padding:10px;
+    border: none;
+    width: 30%;
+    outline: none;
+    margin-right: 1%;
+  }
+  .signup-inputs>button{
+    padding:10px;
+    color:white;
+    border: none;
+    background-color:rgb(112, 196, 112);
+    padding-right:100px;
+    padding-left:100px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .description {
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 50px;
+        line-height: 30px;
+        background-color: white;
+        padding-bottom: 34px;
+  }
+  .description>span{
+    color:white;
+    background-color:rgb(127, 212, 127);
+    padding:3px;
+  }
+  .cards{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
+  .card{
+  
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    margin-right:30px;
+  
+  }
+  .card>p{
+    color:grey;
+    font-size:12px;
+    text-align:center;
+    line-height: 30px;
+
+    
+  }
+  .card>h2{
+  
+    font-size:13px;
+    text-align:center;
+  
+  
+  }
+  .card>img{
+    max-width:100%
+  }
+  .mid-img-1{
+    display:flex;
+  background-color:#fdfdfd;
+  margin: 50px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+    height:500px;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top:20px;
+  }
+  .mid-img-1>div{
+    width:250px;
+    max-height: fit-content;
+  }
+  .mid-img-1>img{
+    height:450px;
+    margin-left:10px;
+  
+  }
+  .mid-img-1>div>p{
+    font-size:12px;
+    color:grey;
+  }
+  .get-started{
+    display:flex;
+    flex-direction:column;
+    Margin:20px;
+    justify-content:center;
+    align-items:center;
+    padding:80px;
+    background:url(https://drive.google.com/uc?export=view&id=1EkI9t69TcXdxG1sQA5bpN_I-LHtY_iEY);
+      color:white;
+  }
+  .get-started>h1{
+      font-size: 40px;
+  }
+  .get-started>button{
+      margin-top:3%;
+    color:white;
+    border:none;
+    padding:15px;
+    padding-right: 60px;
+    padding-left:60px;
+    background:rgb(110, 167, 110);
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .sign-div{
+    display:flex;
+    flex-direction:row;
+    margin-top:50px;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    padding-top: 0%;
+  }
+  .sign-div>div>h1{
+    font-size:25px;
+  }
+  .sign-div>.form>p{
+    font-size: 10px;
+    color: grey;
+    padding-right: 0%;
+}
+  .sign-div>div>p{
+    font-size:15px;
+    color: grey;
+    padding-right: 20%;
+
+  }
+  
+  .form{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    background-color:#e6e6e6;
+    padding:20px;
+    padding-top: 0%;
+    justify-content: center;
+    align-items: center;
+  }
+  .form>h6{
+      font-size: 10px;
+  }
+  .form>button{
+    color:white;
+    background-color:rgb(104, 168, 104);
+    cursor: pointer;
+    outline: none;
+    border:none;
+    width:83%;
+    margin-top: 2%;
+    padding: 7px;
+  }
+  .form>input{
+      padding: 7px;
+      margin-top: 10px;
+    display:block;
+    border:none;
+    width:80%;
+    outline: none;
+  }
+  .form>input::-webkit-input-placeholder{
+      text-align: center;
+  }
+  .form>h6{
+    font-weight:bold;
+  }
+ .footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background:url(https://drive.google.com/uc?export=view&id=1EwechKq95o3n2w1_7UztOd-5rb00u9MH);
+     background-size: 100% 100%;
+     color: rgb(170, 170, 170);
+ }
+ .icons{
+     color: #e6e6e6;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: flex-end;
+     width: 100%;
+     margin-top: 20px;
+ }
+ .icons>i{
+     font-size: 250%;
+ }
+ .footer>h1{
+     font-size: 20px;
+     font-weight: 100;
+     margin-top: 20%;
+ }
+ .footer>h1>span{
+     color: white;
+ }
+ .footer>p{
+     font-size: 10px;
+     margin-bottom: 5%;
+ }
+
+
+
+
+ @media screen and (max-width:1470px){
+    .signup-inputs>button{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 200px;
+    }
+ }
+ @media screen and (max-width:750px){
+     .signup-inputs{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .signup-inputs>input{
+         width: 80%;
+         margin-bottom: 1%;
+     }
+     .signup-inputs>button{
+        padding-left: 20px;
+        padding-right: 15px;
+        width: 85%;
+        margin: 0%;
+    }
+    .sign-div{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sign-div>div>p{
+        padding-right: 0;
+    }
+    .head-container>h1{
+        font-size: 30px;
+    }
+ }
+ @media screen and (max-width:530px){
+    
+   .head-container>p{
+       font-size: 10px;
+   }
+   .logo{
+       font-size: 15px;
+   }
+   .nav{
+       font-size: 10px;
+   }
+   .btn>button{
+       font-size: 10px;
+       padding: 5px;
+   }
+   
+}
+@media screen and (max-width:840px){
+    .sign-div{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1280px){
+    video{
+        display: none;
+    }
+    .head-container{
+        
+      
+      background:url(https://drive.google.com/uc?export=view&id=1ExxmLFCTXullN1v4JaCXxXB39ctAy4BC);
+        background-size: 100% 100%;
+      background-position: center;
+        
+        background-repeat:no-repeat;
+    }
+    .fa-play-circle{
+        cursor:not-allowed;
+      }
+}
